@@ -7,6 +7,11 @@ DB Model:
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/066338ce-56db-4dae-be10-aae781d6243c">
 
 
+<img width="763" alt="image" src="https://github.com/user-attachments/assets/601435a5-b00c-4506-b75a-8b8108ec1a9c">
+
+
+
+
 
 MySQL Schema::
 
