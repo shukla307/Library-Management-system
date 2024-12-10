@@ -1,3 +1,13 @@
+
+my sql Schema:
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/001f4863-f952-4b15-899e-478198380675">
+
+
+DB Model:
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/066338ce-56db-4dae-be10-aae781d6243c">
+
+
+
 MySQL Schema::
 
 CREATE DATABASE LibrarySystem;
@@ -36,8 +46,9 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:<password>@localhost/LibrarySystem"
-app.secret_key = "secret_key"
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://root:
+<password>@localhost/LibrarySystem"
+app.secret_key = "secret-key"
 db = SQLAlchemy(app)
 
 from routes.librarian_routes import *
